@@ -1,0 +1,11 @@
+Put this inside the start of main function in c++, & create an input.txt and output.txt in the same working folder.
+
+#ifndef ONLINE_JUDGE 
+  
+    // For getting input from input.txt file 
+    freopen("input.txt", "r", stdin); 
+  
+    // Printing the Output to output.txt file 
+    freopen("output.txt", "w", stdout); 
+  
+#endif
